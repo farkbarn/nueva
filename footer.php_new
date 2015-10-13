@@ -1,0 +1,40 @@
+					<footer>
+						<div class="pie" align="center">
+							<div class="pie_int">
+								<div class="pie_enl" align="center">
+								</div>
+								<?php include("includes/buscador.html");?>
+								<p class="creditos">© Copyright 2012 por EL INFORMADOR "El Diario de Barquisimeto" RIF.-J08500641-9. Todos los derechos reservados. <a href="mailto:webmaster@elinformador.com.ve">WEBMASTER</a></p>
+							</div>
+						</div>
+					</footer>
+			<div class="espacio10"></div>
+	</body>
+<script defer type="text/javascript">
+jQuery.preloadImages = function(){
+  for(var i = 0; i<arguments.length; i++){
+    jQuery("<img>").attr("src", arguments[i]);
+}
+</script>
+<script defer type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.www.elinformador.com.ve"]);
+  _paq.push(["setDomains", ["*.www.elinformador.com.ve"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//main.hostedpiwik.website/";
+    _paq.push(['setTrackerUrl', u+'js/']);
+    _paq.push(['setSiteId', 33]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//main.hostedpiwik.website/js/?rec=1&idsite=33" style="border:0;" alt="" /></p></noscript>
+
+<!--                <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
+                <link rel="stylesheet" href="/wp-content/themes/nueva/style.css" >
+                <link rel="stylesheet" href="/wp-content/themes/nueva/responsive.css" >
+                <link rel="stylesheet" href="/wp-content/themes/nueva/slider.css" > 
+-->
+</html>
